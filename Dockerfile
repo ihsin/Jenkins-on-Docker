@@ -1,1 +1,2 @@
-FROM jenkins:1.554
+FROM jenkins4eval/jenkins
+

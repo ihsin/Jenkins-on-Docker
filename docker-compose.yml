@@ -1,0 +1,13 @@
+
+
+services:
+    jenkins:
+       container_name: jenkins
+       image: "jenkins4eval/jenkins"
+       ports:
+          - 9090:8080 
+          - 50000:50000
+       volumes:
+          - vol:/var/jenkins_home
+volumes:
+    vol: {}
